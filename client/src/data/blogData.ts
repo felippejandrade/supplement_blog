@@ -191,6 +191,156 @@ export const products: Product[] = [
     benefits: ["300mg cafeína", "Foco extremo", "Vasodilatação", "Nacional"],
     category: "pre-treino"
   },
+    {
+    id: "p8",
+    name: "BCAA 2:1:1 1kg",
+    brand: "Integral Médica",
+    price: "R$ 89,90",
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd90e19?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      amazon: "#amazon-bcaa-integral",
+      mercadoLivre: "#ml-bcaa-integral",
+      shopee: "#shopee-bcaa-integral"
+    },
+    benefits: ["Recuperação muscular", "Redução de fadiga", "Aumento de energia", "Síntese protéica"],
+    category: "pre-treino",
+  },
+    {
+    id: "p9",
+    name: "Glutamina Monohidratada 1kg",
+    brand: "Pro Size",
+    price: "R$ 69,90",
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1614168692292-7ac56d7f7f1e?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      amazon: "#amazon-glutamina-pro",
+      mercadoLivre: "#ml-glutamina-pro",
+      shopee: "#shopee-glutamina-pro"
+    },
+    benefits: ["Acelera recuperação", "Aumenta mássa muscular", "Melhora imunidade", "Reduz catabolismo"],
+    category: "pre-treino",
+  },
+    {
+    id: "p10",
+    name: "Beta Alanina 250g",
+    brand: "Probiótica",
+    price: "R$ 79,90",
+    rating: 4.5,
+    image: "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      amazon: "#amazon-beta-alanina",
+      mercadoLivre: "#ml-beta-alanina",
+      shopee: "#shopee-beta-alanina"
+    },
+    benefits: ["Aumenta resistência", "Reduz fadiga muscular", "Melhora performance", "Maior força"],
+    category: "pre-treino",
+  },
+    {
+    id: "p11",
+    name: "Taurina 1kg",
+    brand: "Arnold Nutrition",
+    price: "R$ 64,90",
+    rating: 4.4,
+    image: "https://images.unsplash.com/photo-1576091160399-f2b6eb5a0e91?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      amazon: "#amazon-taurina-arnold",
+      mercadoLivre: "#ml-taurina-arnold",
+      shopee: "#shopee-taurina-arnold"
+    },
+    benefits: ["Aumenta energia", "Melhora concentração", "Reduz fadiga", "Melhor pump"],
+    category: "pre-treino",
+  },
+    {
+    id: "p12",
+    name: "Cafeína 200 comprimidos",
+    brand: "Power Supplements",
+    price: "R$ 29,90",
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd90e19?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      amazon: "#amazon-cafeina-power",
+      mercadoLivre: "#ml-cafeina-power",
+      shopee: "#shopee-cafeina-power"
+    },
+    benefits: ["Aumenta foco", "Melhora energia", "Acelera metabolismo", "Queima de gordura"],
+    category: "pre-treino",
+  },
+    {
+    id: "p13",
+    name: "Ciénagaáda 1kg",
+    brand: "Optimum Nutrition",
+    price: "R$ 119,90",
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      amazon: "#amazon-citrulina-optimum",
+      mercadoLivre: "#ml-citrulina-optimum",
+      shopee: "#shopee-citrulina-optimum"
+    },
+    benefits: ["Vasodilatador natural", "Aumenta pump", "Melhora irrigação muscular", "Melhor performance"],
+    category: "pre-treino",
+  },
+    {
+    id: "p14",
+    name: "Nitóxido Nórico Booster 600g",
+    brand: "Bodybuilders",
+    price: "R$ 159,90",
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd90e19?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      amazon: "#amazon-nitrico-bodybuilders",
+      mercadoLivre: "#ml-nitrico-bodybuilders",
+      shopee: "#shopee-nitrico-bodybuilders"
+    },
+    benefits: ["Pump extraordinário", "Aumento de força", "Melhor vascularity", "Estimula NO"],
+    category: "pre-treino",
+  },
+    {
+    id: "p15",
+    name: "Creatina Monohidratada 1kg Max Titanium",
+    brand: "Max Titanium",
+    price: "R$ 99,90",
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd90e19?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      amazon: "#amazon-creatina-max",
+      mercadoLivre: "#ml-creatina-max",
+      shopee: "#shopee-creatina-max"
+    },
+    benefits: ["Aumento de força", "Ganho de mássa muscular", "Melhora performance", "Aumenta ATP"],
+    category: "pre-treino",
+  },
+    {
+    id: "p16",
+    name: "Whey Protein Isolado 1kg",
+    brand: "Probiotica",
+    price: "R$ 149,90",
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd90e19?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      amazon: "#amazon-whey-isolado",
+      mercadoLivre: "#ml-whey-isolado",
+      shopee: "#shopee-whey-isolado"
+    },
+    benefits: ["Alto teor de proteína", "Rápida absorção", "Baixo teor de gordura", "Ganho muscular"],
+    category: "pre-treino",
+  },
+    {
+    id: "p17",
+    name: "Malto 1kg",
+    brand: "Success Nutrition",
+    price: "R$ 39,90",
+    rating: 4.5,
+    image: "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      amazon: "#amazon-malto-success",
+      mercadoLivre: "#ml-malto-success",
+      shopee: "#shopee-malto-success"
+    },
+    benefits: ["Reposição de energia", "Rápida absorção", "Aumenta insulina", "Melhora performance"],
+    category: "pre-treino",
+  },
   // Emagrecedores
   {
     id: "p8",
