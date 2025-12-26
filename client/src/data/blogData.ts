@@ -1,4 +1,4 @@
-// Blog Data - Suplementação Pro
+135// Blog Data - Suplementação Pro
 // Design Philosophy: Performance Tech - Data-driven, premium dark aesthetic
 
 export interface Category {
@@ -219,6 +219,20 @@ export const products: Product[] = [
       shopee: "#shopee-creatina-4"
     },
     benefits: ["100% pura", "Seleção premium", "Melhor absorção", "Resultados garantidos"],
+    category: "creatina",
+  },
+    {
+    id: "p5e",
+    name: "Creatina Monohidratada Pura 500g Dark Lab Unidade",
+    brand: "Dark Lab",
+    price: "R$ 47,49",
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1619451334792-150fd3b5eb69?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      amazon: "#amazon-creatina-dark-lab",
+      mercadoLivre: "https://mercadolivre.com/sec/1Dit8v5",
+    },
+    benefits: ["Purissima", "Absorcao rapida", "Melhor performance", "Formula puro"],
     category: "creatina",
   },
   // Pré-treinos
