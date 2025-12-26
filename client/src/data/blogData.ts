@@ -161,6 +161,66 @@ export const products: Product[] = [
     benefits: ["Fácil dissolução", "Absorção otimizada", "150g", "Preço acessível"],
     category: "creatina"
   },
+    {
+    id: "p5a",
+    name: "Creatina Monohidratada 100% Pura 1kg",
+    brand: "Sua Marca",
+    price: "R$ 119,90",
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd90e19?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      amazon: "#amazon-creatina-1",
+      mercadoLivre: "https://mercadolivre.com/sec/1xCoxHe",
+      shopee: "#shopee-creatina-1"
+    },
+    benefits: ["Força e potência", "Ganho muscular", "Desempenho", "Aumento de ATP"],
+    category: "creatina",
+  },
+    {
+    id: "p5b",
+    name: "Creatina Monohidratada Premium 500g",
+    brand: "Sua Marca",
+    price: "R$ 79,90",
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd90e19?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      amazon: "#amazon-creatina-2",
+      mercadoLivre: "https://mercadolivre.com/sec/2rYRy6g",
+      shopee: "#shopee-creatina-2"
+    },
+    benefits: ["Força progressiva", "Melhor performance", "Qualidade garantida", "Pureza 99%"],
+    category: "creatina",
+  },
+    {
+    id: "p5c",
+    name: "Creatina Micronizada 250g",
+    brand: "Sua Marca",
+    price: "R$ 49,90",
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd90e19?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      amazon: "#amazon-creatina-3",
+      mercadoLivre: "https://mercadolivre.com/sec/1NJaNvo",
+      shopee: "#shopee-creatina-3"
+    },
+    benefits: ["Rápida absorção", "Fácil dissolução", "Sem aditivos", "Pureza certificada"],
+    category: "creatina",
+  },
+    {
+    id: "p5d",
+    name: "Creatina Monohidratada 1kg Extra Pura",
+    brand: "Sua Marca",
+    price: "R$ 99,90",
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd90e19?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      amazon: "#amazon-creatina-4",
+      mercadoLivre: "https://mercadolivre.com/sec/1NmdeKu",
+      shopee: "#shopee-creatina-4"
+    },
+    benefits: ["100% pura", "Seleção premium", "Melhor absorção", "Resultados garantidos"],
+    category: "creatina",
+  },
   // Pré-treinos
   {
     id: "p6",
