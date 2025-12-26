@@ -1,37 +1,55 @@
+/*
+ * App.tsx - Suplementação Pro
+ * Design: Performance Tech - Dark premium theme
+ * Main router and providers configuration
+ */
+
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import Home from "./pages/Home";
 
+// Pages
+import Home from "./pages/Home";
+import Category from "./pages/Category";
+import Categories from "./pages/Categories";
+import Post from "./pages/Post";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function Router() {
   return (
     <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
+      <Route path="/" component={Home} />
+      <Route path="/categorias" component={Categories} />
+      <Route path="/categoria/:slug" component={Category} />
+      <Route path="/post/:slug" component={Post} />
+      <Route path="/sobre" component={About} />
+      <Route path="/contato" component={Contact} />
+      <Route path="/404" component={NotFound} />
+      {/* Fallback route */}
       <Route component={NotFound} />
     </Switch>
   );
 }
 
-// NOTE: About Theme
-// - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
-//   to keep consistent foreground/background color across components
-// - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
-
 function App() {
   return (
     <ErrorBoundary>
-      <ThemeProvider
-        defaultTheme="light"
-        // switchable
-      >
+      <ThemeProvider defaultTheme="dark">
         <TooltipProvider>
-          <Toaster />
+          <Toaster
+            position="top-right"
+            toastOptions={{
+              style: {
+                background: "hsl(var(--card))",
+                border: "1px solid hsl(var(--border))",
+                color: "hsl(var(--foreground))",
+              },
+            }}
+          />
           <Router />
         </TooltipProvider>
       </ThemeProvider>
