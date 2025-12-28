@@ -132,59 +132,6 @@ export const products: Product[] = [
     category: "whey-protein"
   },
   // Creatinas
-    {
-    id: "p4",
-    name: "Creatina 1xCoxHe",
-    brand: "Performance",
-    price: "R$ 59,90",
-    rating: 4.8,
-    image: "https://images.unsplash.com/photo-1619451334792-150fd3b5eb69?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://mercadolivre.com/sec/1xCoxHe",
-    },
-    benefits: ["Força progressiva", "Ganho muscular", "Desempenho", "Aumento de ATP"],
-    category: "creatina",
-  },
-  {
-    id: "p5",
-    name: "Creatina 2rYRy6g",
-    brand: "Force",
-    price: "R$ 64,90",
-    rating: 4.7,
-    image: "https://images.unsplash.com/photo-1619451334792-150fd3b5eb69?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://mercadolivre.com/sec/2rYRy6g",
-    },
-    benefits: ["Força e potência", "Ganho muscular", "Desempenho", "Aumento de ATP"],
-    category: "creatina",
-  },
-  {
-    id: "p5a",
-    name: "Creatina 1NJaNvo",
-    brand: "Energy",
-    price: "R$ 69,90",
-    rating: 4.9,
-    image: "https://images.unsplash.com/photo-1619451334792-150fd3b5eb69?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://mercadolivre.com/sec/1NJaNvo",
-    },
-    benefits: ["Rápida absorção", "Fácil disolução", "Sem aditivos", "Pureza certificada"],
-    category: "creatina",
-  },
-  {
-    id: "p5b",
-    name: "Creatina 1NmdeKu",
-    brand: "Premium",
-    price: "R$ 74,90",
-    rating: 5.0,
-    image: "https://images.unsplash.com/photo-1619451334792-150fd3b5eb69?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://mercadolivre.com/sec/1NmdeKu",
-    },
-    benefits: ["100% pura", "Seleção premium", "Melhor absorção", "Resultados garantidos"],
-    category: "creatina",
-  },
-
   {
     id: "p4",
     name: "Creatina Monohidratada 250g",
