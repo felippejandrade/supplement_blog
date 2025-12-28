@@ -210,79 +210,18 @@ export const products: Product[] = [
     benefits: ["300g de creatina pura", "Monohidratada", "Ótimo rendimento", "Preço competitivo"],
     category: "creatina"
   },
-    {
-    id: "p5a",
-    name: "Creatina Monohidratada 100% Pura 1kg",
-    brand: "Sua Marca",
-    price: "R$ 119,90",
-    rating: 4.8,
-    image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd90e19?w=400&auto=format&fit=crop",
+  {
+    id: "p15",
+    name: "02 Potes da Creatina 300g - 100% Pura Monohidratada",
+    brand: "3VS Nutrition",
+    price: "R$ 89,90",
+    rating: 5.0,
+    image: "/images/creatina-3vs-nutrition-1.png",
     affiliateLinks: {
-      amazon: "#amazon-creatina-1",
-      mercadoLivre: "https://mercadolivre.com/sec/1xCoxHe",
-      shopee: "#shopee-creatina-1"
+      mercadoLivre: "#seu-link-3vs-nutrition"
     },
-    benefits: ["Força e potência", "Ganho muscular", "Desempenho", "Aumento de ATP"],
-    category: "creatina",
-  },
-    {
-    id: "p5b",
-    name: "Creatina Monohidratada Premium 500g",
-    brand: "Sua Marca",
-    price: "R$ 79,90",
-    rating: 4.7,
-    image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd90e19?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      amazon: "#amazon-creatina-2",
-      mercadoLivre: "https://mercadolivre.com/sec/2rYRy6g",
-      shopee: "#shopee-creatina-2"
-    },
-    benefits: ["Força progressiva", "Melhor performance", "Qualidade garantida", "Pureza 99%"],
-    category: "creatina",
-  },
-    {
-    id: "p5c",
-    name: "Creatina Micronizada 250g",
-    brand: "Sua Marca",
-    price: "R$ 49,90",
-    rating: 4.6,
-    image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd90e19?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      amazon: "#amazon-creatina-3",
-      mercadoLivre: "https://mercadolivre.com/sec/1NJaNvo",
-      shopee: "#shopee-creatina-3"
-    },
-    benefits: ["Rápida absorção", "Fácil dissolução", "Sem aditivos", "Pureza certificada"],
-    category: "creatina",
-  },
-    {
-    id: "p5d",
-    name: "Creatina Monohidratada 1kg Extra Pura",
-    brand: "Sua Marca",
-    price: "R$ 99,90",
-    rating: 4.9,
-    image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd90e19?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      amazon: "#amazon-creatina-4",
-      mercadoLivre: "https://mercadolivre.com/sec/1NmdeKu",
-      shopee: "#shopee-creatina-4"
-    },
-    benefits: ["100% pura", "Seleção premium", "Melhor absorção", "Resultados garantidos"],
-    category: "creatina",
-  },
-    {
-    id: "p5e",
-    name: "Creatina Monohidratada Pura 500g Dark Lab Unidade",
-    brand: "Dark Lab",
-    price: "R$ 47,49",
-    rating: 4.9,
-    image: "https://images.unsplash.com/photo-1619451334792-150fd3b5eb69?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      amazon: "#amazon-creatina-dark-lab",
-      mercadoLivre: "https://mercadolivre.com/sec/1Dit8v5",
-    },
-    benefits: ["Purissima", "Absorcao rapida", "Melhor performance", "Formula puro"],
-    category: "creatina",
+    benefits: ["100% pura monohidratada", "2 potes de 300g", "Testada em laboratório", "Pureza certificada 100.60%"],
+    category: "creatina"
   },
   // Pré-treinos
   {
