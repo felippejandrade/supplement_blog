@@ -134,11 +134,11 @@ export const products: Product[] = [
   // Creatinas
   {
     id: "p4",
-    name: "Creatina Monohidratada 250g",
+    name: "Creatina Monohidratada 250g - Sem sabor em Pó",
     brand: "Growth Supplements",
     price: "R$ 62,90",
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1619451334792-150fd785ee74?w=400&auto=format&fit=crop",
+    image: "/images/creatina-growth-250g-1.png",
     affiliateLinks: {
       mercadoLivre: "https://mercadolivre.com/sec/1Dit8v5"
     },
