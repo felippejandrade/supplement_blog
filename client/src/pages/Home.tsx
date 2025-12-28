@@ -83,7 +83,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="flex flex-col sm:flex-row gap-4"
             >
-              <Link href="/categorias" className="btn-affiliate">
+              <Link href="https://mercadolivre.com/sec/1Dit8v5" className="btn-affiliate">
                 Explorar Suplementos
                 <ArrowRight className="w-5 h-5" />
               </Link>

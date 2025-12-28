@@ -187,31 +187,80 @@ export const products: Product[] = [
 
   {
     id: "p4",
-    name: "Creatina Monohidratada",
-    brand: "Creapure",
-    price: "R$ 129,90",
-    rating: 5.0,
+    name: "Creatina Monohidratada 250g",
+    brand: "Growth Supplements",
+    price: "R$ 62,90",
+    rating: 4.8,
     image: "https://images.unsplash.com/photo-1619451334792-150fd785ee74?w=400&auto=format&fit=crop",
     affiliateLinks: {
-      amazon: "#amazon-creatina-creapure",
-      mercadoLivre: "#ml-creatina-creapure"
+      mercadoLivre: "https://mercadolivre.com/sec/1Dit8v5"
     },
-    benefits: ["Pureza 99.9%", "Selo Creapure", "Sem aditivos", "300g rendimento"],
+    benefits: ["250g puro", "Sem sabor", "Monohidratada", "Fácil dissolução"],
     category: "creatina"
   },
   {
     id: "p5",
-    name: "Creatina Micronizada",
-    brand: "Max Titanium",
-    price: "R$ 89,90",
-    rating: 4.6,
+    name: "Creatina Creapure 250g",
+    brand: "Growth Supplements",
+    price: "R$ 73,90",
+    rating: 5.0,
     image: "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=400&auto=format&fit=crop",
     affiliateLinks: {
-      amazon: "#amazon-creatina-max",
-      mercadoLivre: "#ml-creatina-max",
-      shopee: "#shopee-creatina-max"
+      mercadoLivre: "https://mercadolivre.com/sec/2DpGskb"
     },
-    benefits: ["Fácil dissolução", "Absorção otimizada", "150g", "Preço acessível"],
+    benefits: ["Creapure original", "Pureza garantida", "250g", "Melhor absorção"],
+    category: "creatina"
+  },
+  {
+    id: "p11",
+    name: "Creatina Monohidratada 500g",
+    brand: "Dark Lab",
+    price: "R$ 89,90",
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1619451334792-150fd785ee74?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://mercadolivre.com/sec/1xCoxHe"
+    },
+    benefits: ["500g puro", "Melhor custo-benefício", "Sem aditivos", "Rendimento superior"],
+    category: "creatina"
+  },
+  {
+    id: "p12",
+    name: "Creatina Monohidratada Pura",
+    brand: "Dark Lab",
+    price: "R$ 99,90",
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1619451334792-150fd785ee74?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://mercadolivre.com/sec/1NmdeKu"
+    },
+    benefits: ["100% pura", "Sem sabor", "Alta qualidade", "Fácil dissolução"],
+    category: "creatina"
+  },
+  {
+    id: "p13",
+    name: "Creatina Monohidratada Premium",
+    brand: "Growth Supplements",
+    price: "R$ 85,90",
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1619451334792-150fd785ee74?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://mercadolivre.com/sec/2fA67MY"
+    },
+    benefits: ["Qualidade premium", "Monohidratada pura", "Rendimento garantido", "Sem impurezas"],
+    category: "creatina"
+  },
+  {
+    id: "p14",
+    name: "Creatina Monohidratada 300g",
+    brand: "Growth Supplements",
+    price: "R$ 79,90",
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1619451334792-150fd785ee74?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://mercadolivre.com/sec/2rYRy6g"
+    },
+    benefits: ["300g de creatina pura", "Monohidratada", "Ótimo rendimento", "Preço competitivo"],
     category: "creatina"
   },
     {
