@@ -14,6 +14,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 // Pages
 import Home from "./pages/Home";
 import Category from "./pages/Category";
+import CategoryPage from "./pages/CategoryPage";
 import Categories from "./pages/Categories";
 import Post from "./pages/Post";
 import About from "./pages/About";
@@ -24,7 +25,7 @@ function Router() {
     <Switch>
       <Route path="/" component={Home} />
       <Route path="/categorias" component={Categories} />
-      <Route path="/categoria/:slug" component={Category} />
+      <Route path="/categoria/:slug" component={CategoryPage} />
       <Route path="/post/:slug" component={Post} />
       <Route path="/sobre" component={About} />
       <Route path="/contato" component={Contact} />
