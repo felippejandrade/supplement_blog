@@ -160,15 +160,15 @@ export const products: Product[] = [
   },
   {
     id: "p11",
-    name: "Creatina Monohidratada 500g",
+    name: "Creatina Monohidratada 300g",
     brand: "Dark Lab",
-    price: "R$ 89,90",
+    price: "R$ 79,90",
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1619451334792-150fd785ee74?w=400&auto=format&fit=crop",
+    image: "/images/creatina-dark-lab-300g.jpg",
     affiliateLinks: {
-      mercadoLivre: "https://mercadolivre.com/sec/1xCoxHe"
+      mercadoLivre: "https://mercadolivre.com/sec/2uaEdiJ"
     },
-    benefits: ["500g puro", "Melhor custo-benefício", "Sem aditivos", "Rendimento superior"],
+    benefits: ["300g puro", "100% monohidratada", "Sem aditivos", "Rendimento superior"],
     category: "creatina"
   },
   {
@@ -240,7 +240,7 @@ export const products: Product[] = [
     id: "p17",
     name: "Creatina Ronnie Coleman 100% Pura 525g Sache Original",
     brand: "Ronnie Coleman",
-    price: "R$ 149,90",
+    price: "R$ 59,95",
     rating: 5.0,
     image: "/images/creatina-ronnie-coleman-525g.jpg",
     affiliateLinks: {
