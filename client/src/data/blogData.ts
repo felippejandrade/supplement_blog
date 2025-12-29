@@ -255,7 +255,7 @@ export const products: Product[] = [
     id: "p16",
     name: "Creatina Monohidratada 1Kg Soldiers Nutrition 100% Pura Importada",
     brand: "Soldiers Nutrition",
-    price: "R$ 129,90",
+    price: "R$ 72,90",
     rating: 4.9,
     image: "/images/creatina-soldiers-1kg-3.jpg",
     affiliateLinks: {
