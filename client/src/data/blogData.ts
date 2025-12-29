@@ -236,6 +236,19 @@ export const products: Product[] = [
     benefits: ["1kg puro importado", "100% monohidratada", "Micronizada", "Sabor natural"],
     category: "creatina"
   },
+  {
+    id: "p17",
+    name: "Creatina Ronnie Coleman 100% Pura 525g Sache Original",
+    brand: "Ronnie Coleman",
+    price: "R$ 149,90",
+    rating: 5.0,
+    image: "/images/creatina-ronnie-coleman-525g.jpg",
+    affiliateLinks: {
+      mercadoLivre: "https://mercadolivre.com/sec/2fA67MY"
+    },
+    benefits: ["525g puro original", "100% monohidratada", "Sem sabor", "Importado USA"],
+    category: "creatina"
+  },
   // Pré-treinos
   {
     id: "p6",
