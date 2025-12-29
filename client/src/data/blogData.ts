@@ -131,6 +131,68 @@ export const products: Product[] = [
     benefits: ["Zero açúcar", "Zero lactose", "Zero glúten", "27g proteína"],
     category: "whey-protein"
   },
+
+  // Adicione estes 4 objetos dentro do array de produtos em blogData.ts
+
+{
+  id: "p18",
+  name: "Nutri Whey Protein - Chocolate",
+  brand: "Integralmédica",
+  price: "R$ 46,81",
+  rating: 4.7,
+  image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400&auto=format&fit=crop",
+  affiliateLinks: {
+    amazon: "https://amzn.to/3IQFJRp",
+    mercadoLivre: "#seu-link-nutri-whey-ml"
+  },
+  benefits: ["1kg tamanho", "Sabor chocolate premium", "Ótimo custo-benefício", "Absorção rápida"],
+  category: "whey-protein"
+},
+
+{
+  id: "p19",
+  name: "Whey Protein Isolado Premium",
+  brand: "Atlhetica Nutrition",
+  price: "R$ 86,45",
+  rating: 4.6,
+  image: "https://images.unsplash.com/photo-1579722820308-d74e571900a9?w=400&auto=format&fit=crop",
+  affiliateLinks: {
+    amazon: "https://amzn.to/3K9hVvG",
+    mercadoLivre: "#seu-link-atlhetica-ml"
+  },
+  benefits: ["900g isolado", "Pureza 90%+", "Baixíssimo carboidrato", "Rápida absorção"],
+  category: "whey-protein"
+},
+
+{
+  id: "p20",
+  name: "Whey Protein Concentrado - Max Titanium",
+  brand: "Max Titanium",
+  price: "R$ 83,90",
+  rating: 4.8,
+  image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=400&auto=format&fit=crop",
+  affiliateLinks: {
+    amazon: "https://amzn.to/3IZqnkh",
+    mercadoLivre: "#seu-link-maxtitan-ml"
+  },
+  benefits: ["1kg concentrado", "Qualidade premium", "Ótimo sabor", "Custo-benefício excelente"],
+  category: "whey-protein"
+},
+
+{
+  id: "p21",
+  name: "Gold Standard Whey - Optimum Nutrition",
+  brand: "Optimum Nutrition",
+  price: "R$ 135,00",
+  rating: 4.9,
+  image: "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=400&auto=format&fit=crop",
+  affiliateLinks: {
+    amazon: "https://amzn.to/LINK_GSW",
+    mercadoLivre: "#seu-link-gstandard-ml"
+  },
+  benefits: ["2lbs importado", "Qualidade mundial", "24g proteína por dose", "Múltiplos sabores"],
+  category: "whey-protein"
+}
   // Creatinas
   {
     id: "p4",
@@ -383,7 +445,8 @@ export const products: Product[] = [
     category: "pre-treino",
   },
     {
-    id: "p17",
+    220
+      ,
     name: "Malto 1kg",
     brand: "Success Nutrition",
     price: "R$ 39,90",
