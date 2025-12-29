@@ -1,6 +1,6 @@
 {
   "name": "supplement_blog",
-  "version": "1.0.0",
+  "version": "1.0.0", // Updated with new whey and pre-treino products
   "type": "module",
   "license": "MIT",
   "scripts": {
