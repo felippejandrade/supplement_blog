@@ -223,6 +223,19 @@ export const products: Product[] = [
     benefits: ["100% pura monohidratada", "2 potes de 300g", "Testada em laboratório", "Pureza certificada 100.60%"],
     category: "creatina"
   },
+  {
+    id: "p16",
+    name: "Creatina Monohidratada 1Kg Soldiers Nutrition 100% Pura Importada",
+    brand: "Soldiers Nutrition",
+    price: "R$ 129,90",
+    rating: 4.9,
+    image: "/images/creatina-soldiers-1kg-3.jpg",
+    affiliateLinks: {
+      mercadoLivre: "https://mercadolivre.com/sec/2f1dzdb"
+    },
+    benefits: ["1kg puro importado", "100% monohidratada", "Micronizada", "Sabor natural"],
+    category: "creatina"
+  },
   // Pré-treinos
   {
     id: "p6",
