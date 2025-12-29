@@ -171,45 +171,7 @@ export const products: Product[] = [
     benefits: ["300g puro", "100% monohidratada", "Sem aditivos", "Rendimento superior"],
     category: "creatina"
   },
-  {
-    id: "p12",
-    name: "Creatina Monohidratada Pura",
-    brand: "Dark Lab",
-    price: "R$ 99,90",
-    rating: 4.6,
-    image: "https://images.unsplash.com/photo-1619451334792-150fd785ee74?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://mercadolivre.com/sec/1NmdeKu"
-    },
-    benefits: ["100% pura", "Sem sabor", "Alta qualidade", "Fácil dissolução"],
-    category: "creatina"
-  },
-  {
-    id: "p13",
-    name: "Creatina Monohidratada Premium",
-    brand: "Growth Supplements",
-    price: "R$ 85,90",
-    rating: 4.8,
-    image: "https://images.unsplash.com/photo-1619451334792-150fd785ee74?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://mercadolivre.com/sec/2fA67MY"
-    },
-    benefits: ["Qualidade premium", "Monohidratada pura", "Rendimento garantido", "Sem impurezas"],
-    category: "creatina"
-  },
-  {
-    id: "p14",
-    name: "Creatina Monohidratada 300g",
-    brand: "Growth Supplements",
-    price: "R$ 79,90",
-    rating: 4.7,
-    image: "https://images.unsplash.com/photo-1619451334792-150fd785ee74?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://mercadolivre.com/sec/2rYRy6g"
-    },
-    benefits: ["300g de creatina pura", "Monohidratada", "Ótimo rendimento", "Preço competitivo"],
-    category: "creatina"
-  },
+
   {
     id: "p15",
     name: "02 Potes da Creatina 300g - 100% Pura Monohidratada",
