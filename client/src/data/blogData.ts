@@ -147,11 +147,11 @@ export const products: Product[] = [
   },
   {
     id: "p5",
-    name: "Creatina Creapure 250g",
+    name: "Creatina Creapure 250g - Sem Sabor em Pó",
     brand: "Growth Supplements",
     price: "R$ 73,90",
     rating: 5.0,
-    image: "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=400&auto=format&fit=crop",
+    image: "/images/creatina-creapure-250g-1.png",
     affiliateLinks: {
       mercadoLivre: "https://mercadolivre.com/sec/2DpGskb"
     },
