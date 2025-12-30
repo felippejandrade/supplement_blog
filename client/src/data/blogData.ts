@@ -131,6 +131,97 @@ export const products: Product[] = [
     benefits: ["Zero açúcar", "Zero lactose", "Zero glúten", "27g proteína"],
     category: "whey-protein"
   },
+  {
+    id: "p18",
+    name: "Whey Protein 900g",
+    brand: "Growth Supplements",
+    price: "R$ 159,90",
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=whey+protein+growth"
+    },
+    benefits: ["24g proteína por dose", "Custo-benefício", "Múltiplos sabores", "Fácil dissolução"],
+    category: "whey-protein"
+  },
+  {
+    id: "p19",
+    name: "Whey Protein 1kg",
+    brand: "Black Skull",
+    price: "R$ 179,90",
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=whey+protein+black+skull"
+    },
+    benefits: ["25g proteína", "Sabor intenso", "Qualidade premium", "Rendimento superior"],
+    category: "whey-protein"
+  },
+  {
+    id: "p20",
+    name: "Whey Protein Concentrado 1kg",
+    brand: "Max Titanium",
+    price: "R$ 169,90",
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=whey+protein+max+titanium"
+    },
+    benefits: ["23g proteína por dose", "Ótimo preço", "Múltiplos sabores", "Absorção rápida"],
+    category: "whey-protein"
+  },
+  {
+    id: "p21",
+    name: "Whey Protein 100% Isolado",
+    brand: "Universal Nutrition",
+    price: "R$ 249,90",
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=whey+protein+universal"
+    },
+    benefits: ["28g proteína", "Baixo carboidrato", "Sem lactose", "Premium quality"],
+    category: "whey-protein"
+  },
+  {
+    id: "p22",
+    name: "Whey Protein Gold Standard 900g",
+    brand: "Optimum Nutrition",
+    price: "R$ 299,90",
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=whey+protein+optimum+nutrition"
+    },
+    benefits: ["25g proteína por dose", "Absorção rápida", "Sabores premium", "Marca internacional"],
+    category: "whey-protein"
+  },
+  {
+    id: "p23",
+    name: "Whey Protein Concentrado 1kg",
+    brand: "IntegralMédica",
+    price: "R$ 139,90",
+    rating: 4.5,
+    image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=whey+integral+medica"
+    },
+    benefits: ["22g proteína", "Melhor preço", "Fabricação nacional", "Diversos sabores"],
+    category: "whey-protein"
+  },
+  {
+    id: "p24",
+    name: "Whey Protein 1kg",
+    brand: "Athletica",
+    price: "R$ 149,90",
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=whey+protein+athletica"
+    },
+    benefits: ["24g proteína por dose", "Custo-benefício", "Qualidade garantida", "Fácil dissolução"],
+    category: "whey-protein"
+  },
   // Creatinas
   {
     id: "p4",
@@ -187,9 +278,9 @@ export const products: Product[] = [
   },
   {
     id: "p16",
-    name: "Creatina Monohidratada 1Kg Soldiers Nutrition 100% Pura Importada",
+    name: "Creatina Monohidratada 1Kg Soldiers Nutrition 100% Pura Importada Alta Performance",
     brand: "Soldiers Nutrition",
-    price: "R$ 129,90",
+    price: "R$ 72,90",
     rating: 4.9,
     image: "/images/creatina-soldiers-1kg-3.jpg",
     affiliateLinks: {
@@ -390,6 +481,136 @@ export const products: Product[] = [
     },
     benefits: ["Reposição de energia", "Rápida absorção", "Aumenta insulina", "Melhora performance"],
     category: "pre-treino",
+  },
+  {
+    id: "p25",
+    name: "Pré-Treino Darkness 300g",
+    brand: "Darkness",
+    price: "R$ 149,90",
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+darkness"
+    },
+    benefits: ["300mg cafeína", "Foco extremo", "Vasodilatação", "Energia explosiva"],
+    category: "pre-treino"
+  },
+  {
+    id: "p26",
+    name: "Pré-Treino Growth 300g",
+    brand: "Growth Supplements",
+    price: "R$ 129,90",
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+growth"
+    },
+    benefits: ["200mg cafeína", "Beta-alanina", "Citrulina", "Foco e energia"],
+    category: "pre-treino"
+  },
+  {
+    id: "p27",
+    name: "Pré-Treino Black Skull 300g",
+    brand: "Black Skull",
+    price: "R$ 139,90",
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+black+skull"
+    },
+    benefits: ["250mg cafeína", "Pump extremo", "Foco mental", "Resistência muscular"],
+    category: "pre-treino"
+  },
+  {
+    id: "p28",
+    name: "C4 Original 390g",
+    brand: "Cellucor",
+    price: "R$ 189,90",
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+c4+cellucor"
+    },
+    benefits: ["150mg cafeína", "Beta-alanina", "Creatina nitrato", "Energia explosiva"],
+    category: "pre-treino"
+  },
+  {
+    id: "p29",
+    name: "Pré-Treino Iridium 300g",
+    brand: "Iridium Labs",
+    price: "R$ 159,90",
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+iridium"
+    },
+    benefits: ["220mg cafeína", "Vasodilatador", "Foco mental", "Pump muscular"],
+    category: "pre-treino"
+  },
+  {
+    id: "p30",
+    name: "Pré-Treino Titan 300g",
+    brand: "Titan Nutrition",
+    price: "R$ 149,90",
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+titan"
+    },
+    benefits: ["200mg cafeína", "Citrulina malato", "Beta-alanina", "Resistência"],
+    category: "pre-treino"
+  },
+  {
+    id: "p31",
+    name: "Pré-Treino Alpha 300g",
+    brand: "Alpha Sports",
+    price: "R$ 139,90",
+    rating: 4.5,
+    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+alpha"
+    },
+    benefits: ["180mg cafeína", "Foco extremo", "Energia duradoura", "Pump"],
+    category: "pre-treino"
+  },
+  {
+    id: "p32",
+    name: "Pré-Treino Max Titanium 300g",
+    brand: "Max Titanium",
+    price: "R$ 149,90",
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+max+titanium"
+    },
+    benefits: ["210mg cafeína", "Beta-alanina", "Citrulina", "Foco e força"],
+    category: "pre-treino"
+  },
+  {
+    id: "p33",
+    name: "Pré-Treino IntegralMédica 300g",
+    brand: "IntegralMédica",
+    price: "R$ 129,90",
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+integral+medica"
+    },
+    benefits: ["190mg cafeína", "Custo-benefício", "Foco mental", "Energia"],
+    category: "pre-treino"
+  },
+  {
+    id: "p34",
+    name: "Pré-Treino Nutrends 300g",
+    brand: "Nutrends",
+    price: "R$ 119,90",
+    rating: 4.5,
+    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
+    affiliateLinks: {
+      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+nutrends"
+    },
+    benefits: ["170mg cafeína", "Melhor preço", "Foco e energia", "Resistência"],
+    category: "pre-treino"
   },
   // Emagrecedores
   {
