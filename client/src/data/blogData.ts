@@ -1,4 +1,4 @@
-// Blog Data - Suplementação Pro
+135// Blog Data - Suplementação Pro
 // Design Philosophy: Performance Tech - Data-driven, premium dark aesthetic
 
 export interface Category {
@@ -95,7 +95,7 @@ export const products: Product[] = [
     rating: 4.9,
     image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400&auto=format&fit=crop",
     affiliateLinks: {
-      amazon: "https://amzn.to/LINK_ON",
+      amazon: "#amazon-whey-on",
       mercadoLivre: "#ml-whey-on",
       shopee: "#shopee-whey-on"
     },
@@ -110,7 +110,7 @@ export const products: Product[] = [
     rating: 4.7,
     image: "https://images.unsplash.com/photo-1579722820308-d74e571900a9?w=400&auto=format&fit=crop",
     affiliateLinks: {
-      amazon: "https://amzn.to/LINK_GROWTH_WHEY",
+      amazon: "#amazon-whey-growth",
       mercadoLivre: "#ml-whey-growth"
     },
     benefits: ["24g de proteína", "Custo-benefício", "Fabricação nacional", "Diversos sabores"],
@@ -124,102 +124,11 @@ export const products: Product[] = [
     rating: 4.8,
     image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=400&auto=format&fit=crop",
     affiliateLinks: {
-      amazon: "https://amzn.to/LINK_INTEGRAL",
+      amazon: "#amazon-iso-integral",
       mercadoLivre: "#ml-iso-integral",
       shopee: "#shopee-iso-integral"
     },
     benefits: ["Zero açúcar", "Zero lactose", "Zero glúten", "27g proteína"],
-    category: "whey-protein"
-  },
-  {
-    id: "p18",
-    name: "Whey Protein 900g",
-    brand: "Growth Supplements",
-    price: "R$ 159,90",
-    rating: 4.8,
-    image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=whey+protein+growth"
-    },
-    benefits: ["24g proteína por dose", "Custo-benefício", "Múltiplos sabores", "Fácil dissolução"],
-    category: "whey-protein"
-  },
-  {
-    id: "p19",
-    name: "Whey Protein 1kg",
-    brand: "Black Skull",
-    price: "R$ 179,90",
-    rating: 4.7,
-    image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=whey+protein+black+skull"
-    },
-    benefits: ["25g proteína", "Sabor intenso", "Qualidade premium", "Rendimento superior"],
-    category: "whey-protein"
-  },
-  {
-    id: "p20",
-    name: "Whey Protein Concentrado 1kg",
-    brand: "Max Titanium",
-    price: "R$ 169,90",
-    rating: 4.6,
-    image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=whey+protein+max+titanium"
-    },
-    benefits: ["23g proteína por dose", "Ótimo preço", "Múltiplos sabores", "Absorção rápida"],
-    category: "whey-protein"
-  },
-  {
-    id: "p21",
-    name: "Whey Protein 100% Isolado",
-    brand: "Universal Nutrition",
-    price: "R$ 249,90",
-    rating: 4.9,
-    image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=whey+protein+universal"
-    },
-    benefits: ["28g proteína", "Baixo carboidrato", "Sem lactose", "Premium quality"],
-    category: "whey-protein"
-  },
-  {
-    id: "p22",
-    name: "Whey Protein Gold Standard 900g",
-    brand: "Optimum Nutrition",
-    price: "R$ 299,90",
-    rating: 4.9,
-    image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=whey+protein+optimum+nutrition"
-    },
-    benefits: ["25g proteína por dose", "Absorção rápida", "Sabores premium", "Marca internacional"],
-    category: "whey-protein"
-  },
-  {
-    id: "p23",
-    name: "Whey Protein Concentrado 1kg",
-    brand: "IntegralMédica",
-    price: "R$ 139,90",
-    rating: 4.5,
-    image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=whey+integral+medica"
-    },
-    benefits: ["22g proteína", "Melhor preço", "Fabricação nacional", "Diversos sabores"],
-    category: "whey-protein"
-  },
-  {
-    id: "p24",
-    name: "Whey Protein 1kg",
-    brand: "Athletica",
-    price: "R$ 149,90",
-    rating: 4.6,
-    image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=whey+protein+athletica"
-    },
-    benefits: ["24g proteína por dose", "Custo-benefício", "Qualidade garantida", "Fácil dissolução"],
     category: "whey-protein"
   },
   // Creatinas
@@ -231,7 +140,6 @@ export const products: Product[] = [
     rating: 4.8,
     image: "/images/creatina-growth-250g-1.png",
     affiliateLinks: {
-      amazon: "https://amzn.to/LINK_GS250",
       mercadoLivre: "https://mercadolivre.com/sec/1Dit8v5"
     },
     benefits: ["250g puro", "Sem sabor", "Monohidratada", "Fácil dissolução"],
@@ -245,7 +153,6 @@ export const products: Product[] = [
     rating: 5.0,
     image: "/images/creatina-creapure-250g-1.png",
     affiliateLinks: {
-      amazon: "https://amzn.to/LINK_CREAPURE",
       mercadoLivre: "https://mercadolivre.com/sec/2DpGskb"
     },
     benefits: ["Creapure original", "Pureza garantida", "250g", "Melhor absorção"],
@@ -259,7 +166,6 @@ export const products: Product[] = [
     rating: 4.7,
     image: "/images/creatina-dark-lab-300g.jpg",
     affiliateLinks: {
-      amazon: "https://amzn.to/LINK_DARKLAB",
       mercadoLivre: "https://mercadolivre.com/sec/2uaEdiJ"
     },
     benefits: ["300g puro", "100% monohidratada", "Sem aditivos", "Rendimento superior"],
@@ -274,7 +180,6 @@ export const products: Product[] = [
     rating: 5.0,
     image: "/images/creatina-3vs-nutrition-1.png",
     affiliateLinks: {
-      amazon: "https://amzn.to/LINK_3VS",
       mercadoLivre: "#seu-link-3vs-nutrition"
     },
     benefits: ["100% pura monohidratada", "2 potes de 300g", "Testada em laboratório", "Pureza certificada 100.60%"],
@@ -282,13 +187,12 @@ export const products: Product[] = [
   },
   {
     id: "p16",
-    name: "Creatina Monohidratada 1Kg Soldiers Nutrition 100% Pura Importada Alta Performance",
+    name: "Creatina Monohidratada 1Kg Soldiers Nutrition 100% Pura Importada",
     brand: "Soldiers Nutrition",
-    price: "R$ 72,90",
+    price: "R$ 129,90",
     rating: 4.9,
     image: "/images/creatina-soldiers-1kg-3.jpg",
     affiliateLinks: {
-      amazon: "https://amzn.to/49t4Uiz",
       mercadoLivre: "https://mercadolivre.com/sec/2f1dzdb"
     },
     benefits: ["1kg puro importado", "100% monohidratada", "Micronizada", "Sabor natural"],
@@ -302,7 +206,6 @@ export const products: Product[] = [
     rating: 5.0,
     image: "/images/creatina-ronnie-coleman-525g.jpg",
     affiliateLinks: {
-      amazon: "https://amzn.to/LINK_RC",
       mercadoLivre: "https://mercadolivre.com/sec/2fA67MY"
     },
     benefits: ["525g puro original", "100% monohidratada", "Sem sabor", "Importado USA"],
@@ -317,7 +220,7 @@ export const products: Product[] = [
     rating: 4.8,
     image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
     affiliateLinks: {
-      amazon: "https://amzn.to/LINK_C4",
+      amazon: "#amazon-c4",
       mercadoLivre: "#ml-c4"
     },
     benefits: ["150mg cafeína", "Beta-alanina", "Creatina nitrato", "Energia explosiva"],
@@ -331,7 +234,7 @@ export const products: Product[] = [
     rating: 4.7,
     image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&auto=format&fit=crop",
     affiliateLinks: {
-      amazon: "https://amzn.to/LINK_EVORA",
+      amazon: "#amazon-evora",
       mercadoLivre: "#ml-evora",
       shopee: "#shopee-evora"
     },
@@ -346,7 +249,7 @@ export const products: Product[] = [
     rating: 4.7,
     image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd90e19?w=400&auto=format&fit=crop",
     affiliateLinks: {
-      amazon: "https://amzn.to/LINK_BCAA",
+      amazon: "#amazon-bcaa-integral",
       mercadoLivre: "#ml-bcaa-integral",
       shopee: "#shopee-bcaa-integral"
     },
@@ -361,7 +264,7 @@ export const products: Product[] = [
     rating: 4.6,
     image: "https://images.unsplash.com/photo-1614168692292-7ac56d7f7f1e?w=400&auto=format&fit=crop",
     affiliateLinks: {
-      amazon: "https://amzn.to/LINK_GLUTA",
+      amazon: "#amazon-glutamina-pro",
       mercadoLivre: "#ml-glutamina-pro",
       shopee: "#shopee-glutamina-pro"
     },
@@ -376,7 +279,7 @@ export const products: Product[] = [
     rating: 4.5,
     image: "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=400&auto=format&fit=crop",
     affiliateLinks: {
-      amazon: "https://amzn.to/LINK_BETA",
+      amazon: "#amazon-beta-alanina",
       mercadoLivre: "#ml-beta-alanina",
       shopee: "#shopee-beta-alanina"
     },
@@ -406,7 +309,7 @@ export const products: Product[] = [
     rating: 4.8,
     image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd90e19?w=400&auto=format&fit=crop",
     affiliateLinks: {
-      amazon: "https://amzn.to/LINK_CAF",
+      amazon: "#amazon-cafeina-power",
       mercadoLivre: "#ml-cafeina-power",
       shopee: "#shopee-cafeina-power"
     },
@@ -421,7 +324,7 @@ export const products: Product[] = [
     rating: 4.6,
     image: "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=400&auto=format&fit=crop",
     affiliateLinks: {
-      amazon: "https://amzn.to/LINK_CITRULINA",
+      amazon: "#amazon-citrulina-optimum",
       mercadoLivre: "#ml-citrulina-optimum",
       shopee: "#shopee-citrulina-optimum"
     },
@@ -436,7 +339,7 @@ export const products: Product[] = [
     rating: 4.7,
     image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd90e19?w=400&auto=format&fit=crop",
     affiliateLinks: {
-      amazon: "https://amzn.to/LINK_NITRICO",
+      amazon: "#amazon-nitrico-bodybuilders",
       mercadoLivre: "#ml-nitrico-bodybuilders",
       shopee: "#shopee-nitrico-bodybuilders"
     },
@@ -474,8 +377,7 @@ export const products: Product[] = [
     category: "pre-treino",
   },
     {
-    220
-      ,
+    id: "p17",
     name: "Malto 1kg",
     brand: "Success Nutrition",
     price: "R$ 39,90",
@@ -488,136 +390,6 @@ export const products: Product[] = [
     },
     benefits: ["Reposição de energia", "Rápida absorção", "Aumenta insulina", "Melhora performance"],
     category: "pre-treino",
-  },
-  {
-    id: "p25",
-    name: "Pré-Treino Darkness 300g",
-    brand: "Darkness",
-    price: "R$ 149,90",
-    rating: 4.8,
-    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+darkness"
-    },
-    benefits: ["300mg cafeína", "Foco extremo", "Vasodilatação", "Energia explosiva"],
-    category: "pre-treino"
-  },
-  {
-    id: "p26",
-    name: "Pré-Treino Growth 300g",
-    brand: "Growth Supplements",
-    price: "R$ 129,90",
-    rating: 4.7,
-    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+growth"
-    },
-    benefits: ["200mg cafeína", "Beta-alanina", "Citrulina", "Foco e energia"],
-    category: "pre-treino"
-  },
-  {
-    id: "p27",
-    name: "Pré-Treino Black Skull 300g",
-    brand: "Black Skull",
-    price: "R$ 139,90",
-    rating: 4.8,
-    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+black+skull"
-    },
-    benefits: ["250mg cafeína", "Pump extremo", "Foco mental", "Resistência muscular"],
-    category: "pre-treino"
-  },
-  {
-    id: "p28",
-    name: "C4 Original 390g",
-    brand: "Cellucor",
-    price: "R$ 189,90",
-    rating: 4.9,
-    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+c4+cellucor"
-    },
-    benefits: ["150mg cafeína", "Beta-alanina", "Creatina nitrato", "Energia explosiva"],
-    category: "pre-treino"
-  },
-  {
-    id: "p29",
-    name: "Pré-Treino Iridium 300g",
-    brand: "Iridium Labs",
-    price: "R$ 159,90",
-    rating: 4.7,
-    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+iridium"
-    },
-    benefits: ["220mg cafeína", "Vasodilatador", "Foco mental", "Pump muscular"],
-    category: "pre-treino"
-  },
-  {
-    id: "p30",
-    name: "Pré-Treino Titan 300g",
-    brand: "Titan Nutrition",
-    price: "R$ 149,90",
-    rating: 4.6,
-    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+titan"
-    },
-    benefits: ["200mg cafeína", "Citrulina malato", "Beta-alanina", "Resistência"],
-    category: "pre-treino"
-  },
-  {
-    id: "p31",
-    name: "Pré-Treino Alpha 300g",
-    brand: "Alpha Sports",
-    price: "R$ 139,90",
-    rating: 4.5,
-    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+alpha"
-    },
-    benefits: ["180mg cafeína", "Foco extremo", "Energia duradoura", "Pump"],
-    category: "pre-treino"
-  },
-  {
-    id: "p32",
-    name: "Pré-Treino Max Titanium 300g",
-    brand: "Max Titanium",
-    price: "R$ 149,90",
-    rating: 4.8,
-    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+max+titanium"
-    },
-    benefits: ["210mg cafeína", "Beta-alanina", "Citrulina", "Foco e força"],
-    category: "pre-treino"
-  },
-  {
-    id: "p33",
-    name: "Pré-Treino IntegralMédica 300g",
-    brand: "IntegralMédica",
-    price: "R$ 129,90",
-    rating: 4.6,
-    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+integral+medica"
-    },
-    benefits: ["190mg cafeína", "Custo-benefício", "Foco mental", "Energia"],
-    category: "pre-treino"
-  },
-  {
-    id: "p34",
-    name: "Pré-Treino Nutrends 300g",
-    brand: "Nutrends",
-    price: "R$ 119,90",
-    rating: 4.5,
-    image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&auto=format&fit=crop",
-    affiliateLinks: {
-      mercadoLivre: "https://www.mercadolivre.com.br/s?as_word=pre+treino+nutrends"
-    },
-    benefits: ["170mg cafeína", "Melhor preço", "Foco e energia", "Resistência"],
-    category: "pre-treino"
   },
   // Emagrecedores
   {
@@ -666,4 +438,410 @@ export const products: Product[] = [
   }
 ];
 
-export const
+export const blogPosts: BlogPost[] = [
+  {
+    id: "1",
+    title: "Os 5 Melhores Wheys para Ganhar Massa em 2025",
+    slug: "melhores-wheys-ganhar-massa-2025",
+    excerpt: "Descubra quais são os whey proteins mais eficientes para hipertrofia muscular, com análise completa de custo-benefício e qualidade.",
+    content: `
+# Os 5 Melhores Wheys para Ganhar Massa em 2025
+
+Se você está buscando **ganhar massa muscular** de forma eficiente, o whey protein é um dos suplementos mais importantes na sua jornada. Neste guia completo, vamos analisar os 5 melhores wheys disponíveis no mercado brasileiro em 2025.
+
+## Por que o Whey Protein é Essencial?
+
+O whey protein é derivado do soro do leite e oferece uma fonte de proteína de **alta qualidade biológica**. Seus benefícios incluem:
+
+- **Absorção rápida**: Ideal para o pós-treino
+- **Perfil completo de aminoácidos**: Todos os essenciais para síntese proteica
+- **Praticidade**: Fácil de consumir em qualquer lugar
+- **Versatilidade**: Pode ser usado em receitas fitness
+
+## 1. Optimum Nutrition Gold Standard
+
+O **Gold Standard** da Optimum Nutrition é considerado o padrão ouro mundial em whey protein. Com 24g de proteína por dose e baixíssimo teor de gordura e carboidratos, é a escolha de atletas profissionais.
+
+### Pontos Positivos:
+- Qualidade internacional comprovada
+- Sabores premium e solubilidade excelente
+- Certificações de qualidade
+
+### Pontos de Atenção:
+- Preço mais elevado
+- Importado (pode haver variação de estoque)
+
+## 2. Growth Supplements Whey Concentrado
+
+Para quem busca **custo-benefício**, o whey da Growth é imbatível. Fabricado no Brasil com rigoroso controle de qualidade, oferece 24g de proteína por dose.
+
+## 3. Integralmédica ISO Whey Triple Zero
+
+Ideal para quem tem **intolerância à lactose** ou busca um produto mais limpo. Zero açúcar, zero lactose e zero glúten.
+
+## 4. Dux Nutrition Whey Protein
+
+Marca brasileira premium que vem ganhando espaço no mercado. Excelente dissolução e sabores diferenciados.
+
+## 5. MyProtein Impact Whey
+
+Opção importada com excelente relação qualidade-preço. Variedade enorme de sabores.
+
+## Conclusão
+
+A escolha do melhor whey depende dos seus objetivos, orçamento e preferências pessoais. O importante é manter a **consistência** no consumo e combinar com uma dieta equilibrada e treino adequado.
+
+**Dica Pro**: Consuma seu whey em até 30 minutos após o treino para maximizar a síntese proteica!
+    `,
+    image: "/images/category-whey.jpg",
+    category: "whey-protein",
+    tags: ["whey protein", "ganho de massa", "hipertrofia", "suplementos"],
+    date: "2025-01-15",
+    readTime: "8 min",
+    author: "Suplementação Pro",
+    featured: true,
+    products: [products[0], products[1], products[2]]
+  },
+  {
+    id: "2",
+    title: "Como Escolher o Pré-Treino Ideal para Mais Energia",
+    slug: "como-escolher-pre-treino-ideal",
+    excerpt: "Guia definitivo para entender os ingredientes dos pré-treinos e escolher o melhor para seu perfil e objetivos.",
+    content: `
+# Como Escolher o Pré-Treino Ideal para Mais Energia
+
+O pré-treino pode ser a diferença entre um treino medíocre e uma sessão **explosiva**. Mas com tantas opções no mercado, como escolher o ideal para você?
+
+## O que é um Pré-Treino?
+
+Pré-treinos são suplementos formulados para serem consumidos antes do exercício, com o objetivo de:
+
+- **Aumentar a energia** e disposição
+- **Melhorar o foco** mental
+- **Potencializar a performance** física
+- **Retardar a fadiga** muscular
+
+## Ingredientes Essenciais
+
+### Cafeína
+O ingrediente mais comum e eficaz. Doses variam de 150mg a 400mg. Iniciantes devem começar com doses menores.
+
+### Beta-Alanina
+Responsável pelo "formigamento" característico. Ajuda a bufferizar o ácido lático, permitindo mais repetições.
+
+### Citrulina Malato
+Precursor do óxido nítrico, promove vasodilatação e o famoso "pump" muscular.
+
+### Creatina
+Alguns pré-treinos incluem creatina para potência e força.
+
+## Escolhendo Baseado no Seu Perfil
+
+### Para Iniciantes
+Opte por fórmulas com **150-200mg de cafeína**. Evite produtos muito estimulantes no início.
+
+### Para Intermediários
+Pode experimentar doses de **200-300mg de cafeína** com fórmulas mais completas.
+
+### Para Avançados
+Fórmulas com **300mg+ de cafeína** e ingredientes como DMAA (onde permitido) ou outros estimulantes potentes.
+
+## Melhores Opções do Mercado
+
+1. **C4 Original** - Equilibrado e eficaz
+2. **Évora PW** - Nacional e potente
+3. **Insane Labz Psychotic** - Para avançados
+4. **Darkness Horus** - Foco e energia
+
+## Dicas de Uso
+
+- Tome 20-30 minutos antes do treino
+- Não use todos os dias para evitar tolerância
+- Evite após as 18h para não atrapalhar o sono
+- Hidrate-se bem durante o treino
+
+## Conclusão
+
+O pré-treino ideal é aquele que se adequa ao seu nível de experiência e tolerância a estimulantes. Comece devagar e ajuste conforme necessário!
+    `,
+    image: "/images/category-preworkout.jpg",
+    category: "pre-treino",
+    tags: ["pré-treino", "energia", "performance", "cafeína"],
+    date: "2025-01-10",
+    readTime: "6 min",
+    author: "Suplementação Pro",
+    featured: true,
+    products: [products[5], products[6]]
+  },
+  {
+    id: "3",
+    title: "Creatina: O Guia Completo do Suplemento Mais Estudado",
+    slug: "creatina-guia-completo",
+    excerpt: "Tudo sobre creatina: como funciona, dosagem correta, fase de saturação, mitos e verdades sobre o suplemento mais pesquisado da história.",
+    content: `
+# Creatina: O Guia Completo do Suplemento Mais Estudado
+
+A creatina é, sem dúvida, o suplemento mais estudado e comprovado cientificamente. Se você ainda não usa, está deixando ganhos na mesa!
+
+## O que é Creatina?
+
+A creatina é um composto natural encontrado em carnes e peixes, e também produzido pelo nosso corpo. Ela é armazenada nos músculos como **fosfocreatina** e serve como fonte rápida de energia para exercícios de alta intensidade.
+
+## Benefícios Comprovados
+
+### 1. Aumento de Força
+Estudos mostram ganhos de **5-10% em força** máxima com suplementação regular.
+
+### 2. Ganho de Massa Muscular
+A creatina aumenta o volume celular e estimula a síntese proteica.
+
+### 3. Melhora na Recuperação
+Reduz danos musculares e acelera a recuperação entre treinos.
+
+### 4. Benefícios Cognitivos
+Pesquisas recentes mostram melhora na função cerebral e memória.
+
+## Como Tomar
+
+### Fase de Saturação (Opcional)
+- 20g/dia divididos em 4 doses por 5-7 dias
+- Acelera os resultados iniciais
+
+### Manutenção
+- 3-5g por dia, todos os dias
+- Pode ser tomada a qualquer momento
+
+### Com ou Sem Carboidrato?
+Tomar com carboidratos pode aumentar a absorção em até 60%, mas não é obrigatório.
+
+## Mitos Desvendados
+
+### "Creatina causa queda de cabelo"
+**MITO** - Não há evidências científicas que comprovem isso.
+
+### "Precisa ciclar creatina"
+**MITO** - Pode ser usada continuamente sem problemas.
+
+### "Creatina faz mal para os rins"
+**MITO** - Em pessoas saudáveis, não há risco renal.
+
+### "Só funciona para homens"
+**MITO** - Mulheres também se beneficiam igualmente.
+
+## Melhores Creatinas do Mercado
+
+1. **Creapure** - Padrão ouro de pureza
+2. **Max Titanium** - Ótimo custo-benefício nacional
+3. **Growth** - Qualidade e preço acessível
+4. **Universal Nutrition** - Tradição e confiança
+
+## Conclusão
+
+A creatina é segura, eficaz e acessível. Se você treina com pesos, deveria estar usando!
+    `,
+    image: "/images/category-creatine.jpg",
+    category: "creatina",
+    tags: ["creatina", "força", "hipertrofia", "suplementos"],
+    date: "2025-01-05",
+    readTime: "10 min",
+    author: "Suplementação Pro",
+    featured: false,
+    products: [products[3], products[4]]
+  },
+  {
+    id: "4",
+    title: "Suplementos que Aceleram a Recuperação Muscular",
+    slug: "suplementos-recuperacao-muscular",
+    excerpt: "Conheça os melhores suplementos para otimizar sua recuperação pós-treino e voltar mais forte para a próxima sessão.",
+    content: `
+# Suplementos que Aceleram a Recuperação Muscular
+
+A recuperação é onde os ganhos realmente acontecem. Sem recuperação adequada, você está apenas se desgastando sem progredir.
+
+## Por que a Recuperação é Importante?
+
+Durante o treino, você causa micro-lesões nas fibras musculares. É no descanso que ocorre a **supercompensação** - o músculo se reconstrói mais forte.
+
+## Top Suplementos para Recuperação
+
+### 1. Whey Protein
+Fornece aminoácidos essenciais para reconstrução muscular. Tome até 30 minutos pós-treino.
+
+### 2. BCAAs
+Leucina, isoleucina e valina - os aminoácidos de cadeia ramificada que estimulam a síntese proteica.
+
+### 3. Glutamina
+Aminoácido mais abundante no músculo. Ajuda na recuperação e imunidade.
+
+### 4. Ômega 3
+Anti-inflamatório natural que reduz dores musculares pós-treino.
+
+### 5. Magnésio
+Mineral essencial para relaxamento muscular e qualidade do sono.
+
+### 6. ZMA
+Combinação de zinco, magnésio e vitamina B6 para recuperação noturna.
+
+## Estratégias Complementares
+
+- **Sono de qualidade**: 7-9 horas por noite
+- **Hidratação**: 35ml por kg de peso corporal
+- **Alimentação**: Proteína em todas as refeições
+- **Descanso ativo**: Caminhadas leves nos dias off
+
+## Conclusão
+
+Invista na recuperação tanto quanto no treino. Seus ganhos agradecem!
+    `,
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&auto=format&fit=crop",
+    category: "vitaminas-minerais",
+    tags: ["recuperação", "pós-treino", "suplementos", "descanso"],
+    date: "2024-12-28",
+    readTime: "7 min",
+    author: "Suplementação Pro",
+    featured: false,
+    products: [products[0], products[9]]
+  },
+  {
+    id: "5",
+    title: "Termogênicos: Como Funcionam e Quais os Melhores",
+    slug: "termogenicos-como-funcionam",
+    excerpt: "Entenda a ciência por trás dos termogênicos e descubra quais realmente funcionam para acelerar a queima de gordura.",
+    content: `
+# Termogênicos: Como Funcionam e Quais os Melhores
+
+Os termogênicos são suplementos populares para quem busca **emagrecer** e definir o corpo. Mas será que funcionam mesmo?
+
+## O que são Termogênicos?
+
+Termogênicos são substâncias que aumentam a **termogênese** - produção de calor pelo corpo. Isso eleva o gasto calórico em repouso.
+
+## Mecanismos de Ação
+
+### 1. Aumento do Metabolismo
+Aceleram as reações metabólicas, queimando mais calorias.
+
+### 2. Oxidação de Gordura
+Estimulam o uso de gordura como fonte de energia.
+
+### 3. Supressão do Apetite
+Muitos reduzem a fome, facilitando o déficit calórico.
+
+### 4. Aumento de Energia
+Proporcionam disposição para treinar mesmo em dieta.
+
+## Ingredientes Eficazes
+
+- **Cafeína**: O termogênico mais estudado e eficaz
+- **Chá Verde**: Catequinas que potencializam a queima
+- **Capsaicina**: Extrato de pimenta que acelera metabolismo
+- **Sinefrina**: Alternativa à efedrina, mais segura
+- **L-Carnitina**: Transporta gordura para ser queimada
+
+## Melhores Termogênicos 2025
+
+1. **Lipo 6 Black** - Potente e completo
+2. **Sineflex** - Nacional de qualidade
+3. **OxyElite Pro** - Para avançados
+4. **Animal Cuts** - Fórmula completa
+
+## Cuidados Importantes
+
+- Não use se tiver problemas cardíacos
+- Evite combinar com muito café
+- Não tome à noite
+- Faça pausas periódicas
+
+## Conclusão
+
+Termogênicos podem ajudar, mas não fazem milagre. Dieta e treino continuam sendo fundamentais!
+    `,
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&auto=format&fit=crop",
+    category: "emagrecedores",
+    tags: ["termogênico", "emagrecimento", "queima de gordura", "metabolismo"],
+    date: "2024-12-20",
+    readTime: "6 min",
+    author: "Suplementação Pro",
+    featured: false,
+    products: [products[7]]
+  },
+  {
+    id: "6",
+    title: "Vitamina D: Por que Todo Atleta Deveria Suplementar",
+    slug: "vitamina-d-atletas",
+    excerpt: "A vitamina D é essencial para performance, recuperação e saúde geral. Descubra por que a maioria das pessoas é deficiente.",
+    content: `
+# Vitamina D: Por que Todo Atleta Deveria Suplementar
+
+A vitamina D é na verdade um **hormônio** essencial para diversas funções do corpo. E a maioria dos brasileiros é deficiente!
+
+## Por que Somos Deficientes?
+
+Apesar de sermos um país tropical, passamos a maior parte do tempo em ambientes fechados. A exposição solar necessária para produzir vitamina D adequada é de 15-20 minutos diários, com braços e pernas expostos.
+
+## Benefícios para Atletas
+
+### 1. Força Muscular
+Estudos mostram correlação direta entre níveis de vitamina D e força.
+
+### 2. Recuperação
+Acelera a regeneração muscular pós-treino.
+
+### 3. Imunidade
+Reduz infecções respiratórias em até 50%.
+
+### 4. Saúde Óssea
+Essencial para absorção de cálcio e densidade óssea.
+
+### 5. Testosterona
+Níveis adequados de D estão associados a maior testosterona.
+
+## Dosagem Recomendada
+
+- **Manutenção**: 2.000-4.000 UI/dia
+- **Correção de deficiência**: 5.000-10.000 UI/dia (com acompanhamento)
+- **Ideal**: Fazer exame de sangue para ajustar dose
+
+## Melhores Formas de Suplementar
+
+1. **Vitamina D3** (colecalciferol) - Forma mais eficaz
+2. **Com vitamina K2** - Melhora absorção e direcionamento do cálcio
+3. **Em cápsulas oleosas** - Melhor absorção por ser lipossolúvel
+
+## Conclusão
+
+Faça um exame de 25-hidroxivitamina D e ajuste sua suplementação. Níveis ideais estão entre 40-60 ng/mL.
+    `,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&auto=format&fit=crop",
+    category: "vitaminas-minerais",
+    tags: ["vitamina D", "imunidade", "saúde", "suplementos"],
+    date: "2024-12-15",
+    readTime: "5 min",
+    author: "Suplementação Pro",
+    featured: false,
+    products: [products[8], products[9]]
+  }
+];
+
+export const socialLinks = {
+  instagram: "https://instagram.com/suplementacaopro",
+  youtube: "https://youtube.com/@suplementacaopro",
+  tiktok: "https://tiktok.com/@suplementacaopro",
+  twitter: "https://twitter.com/suplementacaopro"
+};
+
+export const authorInfo = {
+  name: "Rafael Santos",
+  bio: "Entusiasta de fitness e nutrição esportiva há mais de 10 anos. Formado em Educação Física e pós-graduado em Nutrição Esportiva. Minha missão é ajudar pessoas a alcançarem seus objetivos através de informação de qualidade sobre suplementação.",
+  image: "/images/about-author.jpg",
+  credentials: [
+    "Bacharel em Educação Física - USP",
+    "Pós-graduação em Nutrição Esportiva",
+    "Personal Trainer certificado CREF",
+    "10+ anos de experiência em musculação"
+  ],
+  socialLinks: {
+    instagram: "https://instagram.com/suplementacaopro",
+    youtube: "https://youtube.com/@suplementacaopro"
+  }
+};
