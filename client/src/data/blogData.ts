@@ -131,6 +131,20 @@ export const products: Product[] = [
     benefits: ["Zero açúcar", "Zero lactose", "Zero glúten", "27g proteína"],
     category: "whey-protein"
   },
+  {
+    id: "p18",
+    name: "Whey 100% Hd Refil Black Skull 900g Wpc Wpi E Wph Sabor Baunilha",
+    brand: "Black Skull",
+    price: "R$ 179,90",
+    rating: 4.7,
+    image: "/images/whey-black-skull-900g.jpg",
+    affiliateLinks: {
+      amazon: "https://amzn.to/4qwxO7p",
+      mercadoLivre: "https://mercadolivre.com/sec/2Kbo59i"
+    },
+    benefits: ["900g de proteína pura", "WPC + WPI + WPH", "Sabor baunilha", "Qualidade premium"],
+    category: "whey-protein"
+  },
   // Creatinas
   {
     id: "p4",
